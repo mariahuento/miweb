@@ -1,0 +1,14 @@
+Para crear una rama (branch)
+1. Abrimos gitbash en la carpeta de el proyecto donde vamos a trabajar
+2.ponemos el comando git branch titulo (por ejemplo si vamos a modificar los titulos le ponemos ese nombre a la rama)
+3.ponemos el comando git branch (para ver la cantidad de ramas que tenemos)
+4.ponemos el comando git checkout titulos (para movernos de main a la nueva rama que creamos)
+5.una vez que realizamos todos los cambios que quisimos en visual code, lo subimos como siempre. git add . /git commit -m "" / git push
+6.cuando hagamos git push nos va a tirar un error ya que la rama no estaba en git hub y para hacerlo nos da un comando ( git push --set-upstream origin titulos ) para que copiemos y peguemos
+7.ponemos el comando git push (asi se suben los cambios a git hub)
+8.ponemos el comando checkout main (para volver a la rama principal)
+Para unir ramas (merge)
+9.ponemos el comando git merge titulos (para unir lo que hicimos en la rama titulos con la rama main)¡importante, para hacer merge se hace desde la rama que este arriba, en este caso es main!
+10.ponemos git push (para subir los cambios a github)
+Para borrar ramas
+11.ponemos git branch -d titulos (despues de terminar los cambios y unir las ramas podemos borrar la rama que no vamos a utilizar)
